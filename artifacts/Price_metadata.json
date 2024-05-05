@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_mintLimit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "_mintPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "recipient2",
+						"type": "address"
+					}
+				],
+				"name": "distributeFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_limit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_feePercent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_percentDecimal",
+						"type": "uint256"
+					}
+				],
+				"name": "encodedData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "feePercent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "percentDecimal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/pricing.sol": "Price"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/pricing.sol": {
+			"keccak256": "0x526d7343b0f0665f22f4f51f30df0c5508021ea590d089efab8f16073b4ec59b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63652f9cd0b8e17bbffa72504e96e4ee1804c02e041212626debdd8f7e14b6cc",
+				"dweb:/ipfs/QmWbXnLEgS97DyTMxyf7qeaA9MfvSFdC4LY8VRxD5YDTkW"
+			]
+		}
+	},
+	"version": 1
+}

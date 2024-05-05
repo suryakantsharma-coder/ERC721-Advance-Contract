@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getOperationStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "_WL",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_Public",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_wl",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_public",
+						"type": "bool"
+					}
+				],
+				"name": "setOperations",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/allowOperations.sol": "AllowOperations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/allowOperations.sol": {
+			"keccak256": "0xca4aa0765c1168df4ed1a0b81a0ec9a55e2c7e706c62f775cc8bc78ad0eac00e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b01c4c8e1682d8b16ee285bf6a4a1d04f176844526af89ef02df1346b89eb01",
+				"dweb:/ipfs/QmQ9bGft4PkxPr1SNgawD8nVsVFNqEFpctpxi3oyGyGWFY"
+			]
+		}
+	},
+	"version": 1
+}
